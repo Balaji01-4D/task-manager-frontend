@@ -1,11 +1,82 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 Task Manager App
 
-Currently, two official plugins are available:
+A modern and responsive Task Management web application built with **React + Vite** for the frontend and **Spring Boot** as the backend API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# task-manager-frontend
-# task-manager-frontend
-# task-manager-frontend
+---
+
+## 🚀 Features
+
+- 📌 Create, update, and delete tasks
+- ✅ Mark tasks as completed or pending
+- 🔍 Search and filter tasks by title, priority, or status
+- 🎯 Clear filters with one click to return to full task list
+- 🎨 Clean, colorful, and rounded iOS-inspired UI
+- 🔗 GitHub profile icon linked in navbar
+- 🔄 Fully connected with Spring Boot backend using Axios
+
+---
+
+## 🧱 Task Model
+
+Each task has the following fields:
+
+- `id` – Unique identifier
+- `title` – Task title (string)
+- `description` – Detailed info (string)
+- `createdDate` – Date/time task was created
+- `completed` – Boolean flag for completion
+- `priority` – Numeric level (1 to 10)
+
+---
+
+## 📦 Tech Stack
+
+### Frontend:
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/)
+- [React Router](https://reactrouter.com/)
+- CSS (custom + optional utility-first like TailwindCSS)
+
+### Backend:
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [JPA + Hibernate](https://hibernate.org/)
+- [PostgreSQL / H2 / MySQL] (depending on config)
+
+🔗 **Backend Repository:**
+[👉 View Spring Boot Backend Code](https://github.com/Balaji01-4D/task-manager-backend)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/task-manager-frontend.git
+cd task-manager-frontend
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Dev Server
+
+```bash
+npm run dev
+```
+
+### 4. Connect to Backend
+
+Make sure your Spring Boot backend is running on `http://localhost:8080`
+Or update the Axios base URL accordingly in your service files.
+
+---
+
+## 🙋 Author
+
+* [Balaji](https://github.com/Balaji01-4D)
